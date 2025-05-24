@@ -1,0 +1,275 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+/* .............Login-Page.......... */
+.login-page{
+
+  width: 100% !important;
+  height: 100vh;
+  background-image: url(https://as1.ftcdn.net/v2/jpg/08/14/14/10/1000_F_814141007_E30lk4mpPd0DAjSwoAMeLYX55HL8ki36.jpg);
+  background-size: cover;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.login{
+
+  height: 77%;
+  width: 32%;
+  background-color:rgba(216, 160, 19, 0.865);
+   padding: 25px;
+  border-radius: 10px;
+  box-shadow: rgba(236, 237, 234, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  }
+
+
+  /* ...............signUp-page........ */
+
+  .signup-page{
+    width: 100% !important;
+    height: 100vh;
+    background-image: url(https://as1.ftcdn.net/v2/jpg/08/14/14/10/1000_F_814141007_E30lk4mpPd0DAjSwoAMeLYX55HL8ki36.jpg);
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .signup{
+    width: 33%;
+     background-color:rgba(216, 160, 19, 0.865);
+     padding: 25px;
+     border-radius: 20px;
+   }
+
+
+   /* ................navbar......... */
+
+
+   .search{
+    display: flex;
+    justify-content: baseline;
+    margin: 0;
+    position: absolute;
+    left: 600px;
+   }
+
+
+
+
+   .headerLink:hover{
+  padding-top:5px;
+    border-bottom: 2px solid green;
+   }
+
+    
+
+
+   
+    .img-heading{
+      margin: 0% !important;
+background-image: url(https://as2.ftcdn.net/v2/jpg/06/26/10/37/1000_F_626103774_twshHrUzApupNUihit0SG2ouMEY9U7bp.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+        width: 100% !important;
+       height: 80vh;
+ 
+     }
+    
+
+      .img-quotes{
+        position: absolute;
+        top: 150px;
+        left: 50px;
+         
+      }
+
+      .explore{
+        font-size: 35px;
+        font-weight: bold;
+        color:  black;
+      }
+
+    .quotes{
+      font-size: medium;
+      font-weight: bold;
+    } 
+    .cards{
+      margin-left: 30px !important;
+        margin: 10px;
+       display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .boxhover{
+    
+      padding: 3px;
+      width: 32% !important;
+      height: auto !important;
+       box-shadow: 0 4px 8px 0 rgba(170, 166, 166, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     } 
+     .boxhover:hover{
+      padding: 0px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     
+    }
+    
+.text-color{
+  font-family: sans-serif;
+ font-size: medium;
+ font-weight: 700;
+ color:rgba(57, 158, 10, 0.772);
+}
+    .nav-color{
+      border-radius: 10px;
+      background-color: rgb(205, 199, 33) !important;
+    }
+    .pic-size{
+      height: 45vh;
+    }
+
+
+
+     /* viewcard */
+
+  .img-view{
+    padding: 20px;
+ font-size: larger;
+ font-family: sans-serif;
+ font-weight: 500;
+ }
+ .text-decor{
+  text-decoration:line-through;
+}
+
+.img-scale{
+ height: 80vh;
+ padding-top: 55px;
+ }
+.textbody{
+padding-top: 20px;
+line-height: 30px;
+width: 30rem ;
+height:50vh;
+border: none !important;
+}
+.f-weight{
+margin-top: 5px;
+font-size: 30px;
+}
+.stock{
+ padding: 5px;
+ border: solid 1px;
+ font-weight: 600;
+ border-radius: 5px;
+ background-color: rgb(247, 226, 40);
+}
+
+
+.create-view{
+ transform: scale(.8);
+}
+
+.preview{
+ text-align: center;
+ color:black;
+}
+
+
+.admin-btn{
+  display: flex;
+  gap: 10px;
+   justify-content: end;
+}
+
+/* create */
+.create-img{
+    margin-left: 40px !important;
+  
+     }
+
+     .img-body{
+      width: 700px;
+      }
+
+/* ............footer... */
+      .foot{
+  
+        height: 50vh;
+        background-color: black;
+        padding: 30px;
+        padding-top: 50px !important;
+        margin-top: 30px;
+      }
+      .footer{
+        color: rgb(195, 216, 235);
+        display: flex;
+        justify-content: space-around;
+         
+       }
+      
+       .text{
+        font-family: sans-serif;
+        cursor: pointer;
+        
+       }
+      
+       .texthead{
+        font-family: sans-serif;
+         
+        padding-bottom: 20px;
+        color: rgb(182, 118, 95);
+       }
+       .icon{
+          display: flex !important;
+         justify-content: space-around;
+       }
+      
+       .text h6:hover{
+         color:antiquewhite;
+            }
+
+
+
+.imgUrl{
+   width: 80px;;
+}
+
+
+/* .......dashboardlink...... */
+
+.btn :hover{
+  background-color: black;
+   border-bottom-color:   rgb(13, 13, 13);
+  border-width: 3px;
+  color: rgb(13, 173, 173);
+ }
+ 
+#userbtn{
+  border-bottom-color:   rgb(13, 13, 13);
+  border-width: 3px;
+  color: rgb(13, 173, 173);
+}
+
+
+  /* .......Navbar brand....... */
+  .brand{
+  color: rgb(90, 22, 3) !important;
+  font-weight: bold;
+   }
+   .username{
+    font-size:20px;
+    font-weight: bold;
+    color: rgb(19, 230, 89) !important;
+   }
